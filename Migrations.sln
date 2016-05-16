@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrations", "Migrations\Mi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrationsRepository", "MigrationsRepository\MigrationsRepository.csproj", "{D95A5A25-8899-4E21-9D78-A35E1C4564A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgresMigrations", "PostgresMigrations\PostgresMigrations.csproj", "{BA24A753-310A-4922-BC23-35AA4D79D628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPostgresMigrations", "TestPostgresMigrations\TestPostgresMigrations.csproj", "{35E2F0FC-8F2B-4A1E-9A6C-C97C30CE7308}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{D95A5A25-8899-4E21-9D78-A35E1C4564A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D95A5A25-8899-4E21-9D78-A35E1C4564A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D95A5A25-8899-4E21-9D78-A35E1C4564A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA24A753-310A-4922-BC23-35AA4D79D628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA24A753-310A-4922-BC23-35AA4D79D628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA24A753-310A-4922-BC23-35AA4D79D628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA24A753-310A-4922-BC23-35AA4D79D628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E2F0FC-8F2B-4A1E-9A6C-C97C30CE7308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E2F0FC-8F2B-4A1E-9A6C-C97C30CE7308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E2F0FC-8F2B-4A1E-9A6C-C97C30CE7308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E2F0FC-8F2B-4A1E-9A6C-C97C30CE7308}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

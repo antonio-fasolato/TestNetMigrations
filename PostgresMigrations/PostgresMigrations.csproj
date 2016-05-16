@@ -44,7 +44,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="M1Tenant.cs" />
+    <Compile Include="M001Tenant.cs" />
+    <Compile Include="M002Exhibition.cs" />
+    <Compile Include="M003Fair.cs" />
+    <Compile Include="M004FlowConfig.cs" />
+    <Compile Include="M005Flow.cs" />
+    <Compile Include="M006Product.cs" />
+    <Compile Include="M007Customer.cs" />
+    <Compile Include="M008Cart.cs" />
+    <Compile Include="M009Account.cs" />
+    <Compile Include="M010BusMessageData.cs" />
+    <Compile Include="M011MaskConfig.cs" />
+    <Compile Include="M012BosError.cs" />
+    <Compile Include="M013DataMaskListValues.cs" />
+    <Compile Include="M014Coupon.cs" />
+    <Compile Include="M015PaymentTransaction.cs" />
+    <Compile Include="M016FlowConfigTemplate.cs" />
+    <Compile Include="M017BosCallLog.cs" />
+    <Compile Include="M018File.cs" />
+    <Compile Include="M019Ticket.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

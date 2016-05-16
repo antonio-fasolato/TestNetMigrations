@@ -23,7 +23,7 @@ namespace TestPostgresMigrations
         public void Down()
         {
             var announcer = new TextWriterAnnouncer(Console.WriteLine);
-            var assembly = typeof(M1Tenant).Assembly;
+            var assembly = typeof(M001Tenant).Assembly;
 
             var migrationContext = new RunnerContext(announcer)
             {
@@ -37,7 +37,7 @@ namespace TestPostgresMigrations
                     announcer, options))
             {
                 var runner = new MigrationRunner(assembly, migrationContext, processor);
-                runner.MigrateDown(0, true);
+                runner.MigrateDown(8, true);
             }
         }
 
@@ -45,7 +45,7 @@ namespace TestPostgresMigrations
         public void Up()
         {
             var announcer = new TextWriterAnnouncer(Console.WriteLine);
-            var assembly = typeof(M1Tenant).Assembly;
+            var assembly = typeof(M001Tenant).Assembly;
 
             var migrationContext = new RunnerContext(announcer)
             {
@@ -59,7 +59,7 @@ namespace TestPostgresMigrations
                     announcer, options))
             {
                 var runner = new MigrationRunner(assembly, migrationContext, processor);
-                runner.MigrateUp(true);
+                runner.MigrateUp(9, true);
             }
         }
     }

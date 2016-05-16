@@ -2,15 +2,15 @@
 
 namespace PostgresMigrations
 {
-    [Migration(1)]
-    public class M1Tenant : Migration
+    [Migration(3)]
+    public class M003Fair : Migration
     {
         public override void Up()
         {
-            Create.Table("tenant")
+            Create.Table("fair")
                 .WithColumn("id").AsGuid().NotNullable().PrimaryKey()
-                .WithColumn("urldomain").AsString().NotNullable()
-                .WithColumn("enabled").AsBoolean()
+                .WithColumn("tenantid").AsGuid().NotNullable()
+                .WithColumn("name").AsString().NotNullable()
                 .WithColumn("createdat").AsDateTime()
                 .WithColumn("changedat").AsDateTime()
                 .WithColumn("createdby").AsString()
@@ -20,7 +20,7 @@ namespace PostgresMigrations
 
         public override void Down()
         {
-            Delete.Table("tenant");
+            Delete.Table("fair");
         }
     }
 }
